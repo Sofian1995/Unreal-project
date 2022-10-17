@@ -1,0 +1,47 @@
+[
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\Grabber.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\Grabber.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\Mover.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\Mover.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\play_2.Build.cs",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\play_2.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\play_2.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\TriggerComponent.cpp",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	},
+	{
+		"file": "C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\Source\\play_2\\TriggerComponent.h",
+		"command": "\"C:\\Program Files\\Microsoft Visual Studio\\2022\\Community\\VC\\Tools\\MSVC\\14.33.31629\\bin\\HostX64\\x64\\cl.exe\" @\"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\.vscode\\compileCommands_play_2\\play_2.211.rsp\"",
+		"directory": "E:\\epic\\UE_5.0\\Engine\\Source"
+	}
+]

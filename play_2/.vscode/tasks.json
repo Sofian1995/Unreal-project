@@ -1,0 +1,707 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "play_2 Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 Win64 Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 Win64 Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 Win64 Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"Win64",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 HoloLens Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 HoloLens DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 HoloLens Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Test Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Test Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 HoloLens Test Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Test Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Test",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Shipping Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Shipping Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2 HoloLens Shipping Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2 HoloLens Shipping Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2",
+				"HoloLens",
+				"Shipping",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Debug Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Debug Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2Editor Win64 Debug Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Debug Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Debug",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 DebugGame Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 DebugGame Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2Editor Win64 DebugGame Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 DebugGame Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"DebugGame",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Development Build",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Development Rebuild",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Build.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"dependsOn": [
+				"play_2Editor Win64 Development Clean"
+			],
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		},
+		{
+			"label": "play_2Editor Win64 Development Clean",
+			"group": "build",
+			"command": "Engine\\Build\\BatchFiles\\Clean.bat",
+			"args": [
+				"play_2Editor",
+				"Win64",
+				"Development",
+				"C:\\Users\\sofian\\Documents\\Unreal Projects\\play_2\\play_2.uproject",
+				"-waitmutex"
+			],
+			"problemMatcher": "$msCompile",
+			"type": "shell",
+			"options": {
+				"cwd": "E:\\epic\\UE_5.0"
+			}
+		}
+	]
+}
